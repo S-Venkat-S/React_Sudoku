@@ -1,0 +1,24 @@
+.inp {
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    text-align: center;
+    border: solid 1px black;
+    padding: 0px 0px;
+}
+
+.wrong {
+	composes: inp;
+	color: red;
+}
+
+.right {
+	composes: inp;
+	color: green;
+}
+
+.default {
+	composes: inp;
+	color: black;
+	background-color: #dcdcdc;
+}
