@@ -37,6 +37,10 @@ module.exports = {
               include: srcPath, 
               exclude: /node_modules/, 
               loader: 'style-loader!css-loader?modules&localIdentName=[name]__[local] [hash:base64:5]&so    urceMap!postcss-loader' 
+            },
+            {
+                test: /\.TTF$/,
+                loader: "file-loader"
             }
         ],
     }
